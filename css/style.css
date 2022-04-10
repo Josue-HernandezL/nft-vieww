@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--Very-dark-blue-card-BG);
+}
+
+.box {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    background-color: var(--Very-dark-blue-line);
+    height: 485px;
+    width: 300px;
+    margin: 100px 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px 6px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 4px 4px 14px 6px rgba(0,0,0,0.42);
+    -moz-box-shadow: 4px 4px 14px 6px rgba(0,0,0,0.42);
+}
+
+.ethereum {
+    height: 250px;
+    width: 250px;
+    margin: 25px;
+    border-radius: 10px;            
+    box-shadow: 4px 4px 23px 0px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 4px 4px 23px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 4px 4px 23px 0px rgba(0,0,0,0.46);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    color: var(--Cyan);
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.parrafo {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    color: var(--Soft-blue);
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid var(--White);
+}
+
+.content-padre {
+    display: flex;
+    /* margin-bottom: 35px; */
+}
+
+.content-1 {
+    display: flex;
+    margin-top: 15px;
+    padding-left: 25px;
+    color: var(--Cyan);
+    width: 50%;
+}
+
+.content-2 {
+    display: flex;
+    margin-top: 15px;
+    padding-left: 25px;
+    color: var(--Soft-blue);
+    width: 50%;
+}
+
+.img-c {
+    height: 13px;
+}
+
+.text {
+    padding-left: 10px;
+}
+
+hr {
+    background-color: var(--White);
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 25px;
+    border: solid var(--Soft-blue);
+    height: 5%;
+}
+
+.content-3 {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.creador {
+    padding-left: 15px;
+    color: var(--Soft-blue);
+}
+
+span {
+    color: var(--White);
+    cursor: pointer;
+}
+
+.content-1, .content-2 {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 875px) {
+
+    
+
+}
+
